@@ -1,0 +1,12 @@
+{
+  "type": "content",
+  "modid": "metalbowlsandpots",
+  "name": "Metal Bowls and Pots",
+  "authors": ["Alohaa"],
+  "description": "Introduces highly durable metal bowls and advanced cooking pots with expanded serving capacities. These items significantly reduce cooking times and slow down food decay.",
+  "version": "1.0.0",
+  "side": "Universal",
+  "dependencies": {
+    "game": "*"
+  }
+}
