@@ -1,0 +1,30 @@
+{
+  "ingredient": { 
+    "type": "item", 
+    "code": "ingot-*", 
+    "name": "metal", 
+    "allowedVariants": ["copper", "tinbronze", "iron", "steel"] 
+  },
+  "pattern": [
+    [
+      "#####",
+      "#####",
+      "#####",
+      "#####",
+      "#####"
+    ],
+    [
+      "#####",
+      "#   #",
+      "#   #",
+      "#   #",
+      "#####"
+    ]
+  ],
+  "name": "Metal Bowl",
+  "code": "metalbowl-{metal}",
+  "output": { 
+    "type": "item", 
+    "code": "metalbowlsandpots:metalbowl-{metal}" 
+  }
+}

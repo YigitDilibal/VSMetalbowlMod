@@ -1,0 +1,49 @@
+{
+  "ingredient": { 
+    "type": "item", 
+    "code": "ingot-*", 
+    "name": "metal", 
+    "allowedVariants": ["copper", "tinbronze", "iron", "steel"] 
+  },
+  "pattern": [
+    [
+      "#########",
+      "#########",
+      "#########",
+      "#########",
+      "#########",
+      "#########",
+      "#########",
+      "#########",
+      "#########"
+    ],
+    [
+      "#########",
+      "#       #",
+      "#       #",
+      "#       #",
+      "#       #",
+      "#       #",
+      "#       #",
+      "#       #",
+      "#########"
+    ],
+    [
+      "#########",
+      "#       #",
+      "#       #",
+      "#       #",
+      "#       #",
+      "#       #",
+      "#       #",
+      "#       #",
+      "#########"
+    ]
+  ],
+  "name": "Metal Cooking Pot",
+  "code": "metalcookingpot-{metal}",
+  "output": { 
+    "type": "item", 
+    "code": "metalbowlsandpots:metalcookingpot-{metal}" 
+  }
+}

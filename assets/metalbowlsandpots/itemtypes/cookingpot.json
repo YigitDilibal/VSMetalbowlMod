@@ -1,0 +1,90 @@
+{
+  "code": "metalcookingpot",
+  "class": "Item",
+  "variantgroups": [
+    {
+      "code": "metal",
+      "states": ["copper", "tinbronze", "iron", "steel", "goldplatedsteel"]
+    }
+  ],
+  "shape": {
+    "base": "item/cookingpot"
+  },
+  "textures": {
+    "metalPot": {
+      "base": "block/metal/{metal}"
+    }
+  },
+  "creativeinventory": {
+    "general": ["*"],
+    "metalbowlsandpots": ["*"]
+  },
+  "maxstacksize": 16,
+  "materialDensity": 800,
+  "lightResistance": 0,
+  "attributesByType": {
+    "*-copper": {
+      "maxServings": 8,
+      "perishRateMul": 0.90,
+      "cookingTimeMul": 0.90,
+      "inFirePitProps": {
+        "useFirepitModel": "Wide",
+        "transform": { "translation": { "x": 0, "y": 0.05, "z": 0 }, "rotation": { "x": 0, "y": 0, "z": 0 }, "scale": 0.9 }
+      }
+    },
+    "*-tinbronze": {
+      "maxServings": 10,
+      "perishRateMul": 0.85,
+      "cookingTimeMul": 0.80,
+      "inFirePitProps": {
+        "useFirepitModel": "Wide",
+        "transform": { "translation": { "x": 0, "y": 0.05, "z": 0 }, "rotation": { "x": 0, "y": 0, "z": 0 }, "scale": 0.9 }
+      }
+    },
+    "*-iron": {
+      "maxServings": 12,
+      "perishRateMul": 0.80,
+      "cookingTimeMul": 0.70,
+      "inFirePitProps": {
+        "useFirepitModel": "Wide",
+        "transform": { "translation": { "x": 0, "y": 0.05, "z": 0 }, "rotation": { "x": 0, "y": 0, "z": 0 }, "scale": 0.9 }
+      }
+    },
+    "*-steel": {
+      "maxServings": 16,
+      "perishRateMul": 0.75,
+      "cookingTimeMul": 0.60,
+      "inFirePitProps": {
+        "useFirepitModel": "Wide",
+        "transform": { "translation": { "x": 0, "y": 0.05, "z": 0 }, "rotation": { "x": 0, "y": 0, "z": 0 }, "scale": 0.9 }
+      }
+    },
+    "*-goldplatedsteel": {
+      "maxServings": 20,
+      "perishRateMul": 0.50,
+      "cookingTimeMul": 0.33,
+      "inFirePitProps": {
+        "useFirepitModel": "Wide",
+        "transform": { "translation": { "x": 0, "y": 0.05, "z": 0 }, "rotation": { "x": 0, "y": 0, "z": 0 }, "scale": 0.9 }
+      }
+    }
+  },
+  "guiTransform": {
+    "translation": { "x": 0, "y": 0, "z": 0 },
+    "rotation": { "x": -26, "y": 140, "z": -135 },
+    "origin": { "x": 0.5, "y": 0, "z": 0.5 },
+    "scale": 1.4
+  },
+  "fpHandTransform": {
+    "translation": { "x": 0, "y": 0, "z": 0 },
+    "rotation": { "x": 19, "y": 42, "z": -8 },
+    "origin": { "x": 0.5, "y": 0, "z": 0.5 },
+    "scale": 1.0
+  },
+  "tpHandTransform": {
+    "translation": { "x": -1.0, "y": -0.5, "z": -0.8 },
+    "rotation": { "x": 2, "y": -73, "z": 38 },
+    "origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+    "scale": 0.55
+  }
+}

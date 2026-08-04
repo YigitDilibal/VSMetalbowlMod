@@ -1,0 +1,65 @@
+{
+  "code": "metalbowl",
+  "class": "Item",
+  "variantgroups": [
+    {
+      "code": "metal",
+      "states": ["copper", "tinbronze", "iron", "steel", "goldplatedsteel"]
+    }
+  ],
+  "shape": {
+    "base": "item/bowl"
+  },
+  "textures": {
+    "metalbowl": {
+      "base": "block/metal/{metal}"
+    }
+  },
+  "creativeinventory": {
+    "general": ["*"],
+    "metalbowlsandpots": ["*"]
+  },
+  "maxstacksize": 32,
+  "materialDensity": 600,
+  "lightResistance": 0,
+  "attributesByType": {
+    "*-copper": {
+      "maxServings": 2,
+      "perishRateMul": 0.90
+    },
+    "*-tinbronze": {
+      "maxServings": 3,
+      "perishRateMul": 0.85
+    },
+    "*-iron": {
+      "maxServings": 4,
+      "perishRateMul": 0.80
+    },
+    "*-steel": {
+      "maxServings": 5,
+      "perishRateMul": 0.75
+    },
+    "*-goldplatedsteel": {
+      "maxServings": 6,
+      "perishRateMul": 0.50
+    }
+  },
+  "guiTransform": {
+    "translation": { "x": 0, "y": 0, "z": 0 },
+    "rotation": { "x": -26, "y": 140, "z": -135 },
+    "origin": { "x": 0.5, "y": 0, "z": 0.5 },
+    "scale": 1.75
+  },
+  "fpHandTransform": {
+    "translation": { "x": 0, "y": 0, "z": 0 },
+    "rotation": { "x": 19, "y": 42, "z": -8 },
+    "origin": { "x": 0.5, "y": 0, "z": 0.5 },
+    "scale": 1.2
+  },
+  "tpHandTransform": {
+    "translation": { "x": -1.2, "y": -0.8, "z": -0.8 },
+    "rotation": { "x": 2, "y": -73, "z": 38 },
+    "origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+    "scale": 0.65
+  }
+}
