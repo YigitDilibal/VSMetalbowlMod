@@ -1,13 +1,31 @@
 {
   "item-metalbowl-copper": "Copper Bowl",
+  "itemdesc-metalbowl-copper": "A simple upgrade from traditional clay. It holds 2 servings and keeps food fresh 10% longer (0.9x perish rate).",
+  
   "item-metalbowl-tinbronze": "Tin Bronze Bowl",
+  "itemdesc-metalbowl-tinbronze": "A reliable bronze bowl for daily use. It holds 3 servings and keeps food fresh 15% longer (0.85x perish rate).",
+  
   "item-metalbowl-iron": "Iron Bowl",
+  "itemdesc-metalbowl-iron": "A heavy and sturdy iron bowl. It holds 4 servings and keeps meals fresh 20% longer (0.8x perish rate).",
+  
   "item-metalbowl-steel": "Steel Bowl",
+  "itemdesc-metalbowl-steel": "An advanced steel bowl built for the road. It holds 5 servings and slows down food decay by 25% (0.75x perish rate).",
+  
   "item-metalbowl-goldplatedsteel": "Gold Plated Steel Bowl",
+  "itemdesc-metalbowl-goldplatedsteel": "A rare masterpiece of culinary luxury. It holds 6 servings and cuts food decay exactly in half (0.5x perish rate).",
 
   "item-metalcookingpot-copper": "Copper Cooking Pot",
+  "itemdesc-metalcookingpot-copper": "A basic metal pot that handles heat better than clay. It holds 8 servings, cooks meals 10% faster (0.9x cooking time), and reduces food decay by 10%.",
+  
   "item-metalcookingpot-tinbronze": "Tin Bronze Cooking Pot",
+  "itemdesc-metalcookingpot-tinbronze": "A sturdy camp companion. It holds 10 servings, cooks meals 20% faster (0.8x cooking time), and reduces food decay by 15%.",
+  
   "item-metalcookingpot-iron": "Iron Cooking Pot",
+  "itemdesc-metalcookingpot-iron": "A heavy-duty cauldron for large families. It holds 12 servings, cooks meals 30% faster (0.7x cooking time), and reduces food decay by 20%.",
+  
   "item-metalcookingpot-steel": "Steel Cooking Pot",
-  "item-metalcookingpot-goldplatedsteel": "Gold Plated Steel Cooking Pot"
+  "itemdesc-metalcookingpot-steel": "An industrial-grade pot meant to feed a settlement. It holds 16 servings, cooks meals 40% faster (0.6x cooking time), and reduces food decay by 25%.",
+  
+  "item-metalcookingpot-goldplatedsteel": "Gold Plated Steel Cooking Pot",
+  "itemdesc-metalcookingpot-goldplatedsteel": "The ultimate culinary artifact. It holds a massive 20 servings, cooks meals 3 times faster (0.33x cooking time), and cuts food decay in half (0.5x perish rate)."
 }
