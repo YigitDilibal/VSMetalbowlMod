@@ -1,0 +1,22 @@
+{
+  "ingredientPattern": "C, B",
+  "ingredients": {
+    "C": {
+      "type": "item",
+      "code": "game:chisel-*",
+      "isTool": true,
+      "toolDurabilityCost": 1
+    },
+    "B": {
+      "type": "item",
+      "code": "metalbowlsandpots:metalbowl-*",
+      "name": "metal",
+      "allowedVariants": ["copper", "tinbronze", "iron", "steel"]
+    }
+  },
+  "output": {
+    "type": "item",
+    "code": "game:metalbit-{metal}",
+    "quantity": 16
+  }
+}
