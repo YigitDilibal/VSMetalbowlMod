@@ -1,0 +1,34 @@
+{
+  "ingredientPattern": [
+    "IPI",
+    " B ",
+    "C C"
+  ],
+  "ingredients": {
+    "I": {
+      "type": "item",
+      "code": "game:crushed-ilmenite",
+      "quantity": 2
+    },
+    "P": {
+      "type": "item",
+      "code": "game:plate-gold",
+      "quantity": 1
+    },
+    "B": {
+      "type": "item",
+      "code": "metalbowlsandpots:metalbowl-steel",
+      "quantity": 1
+    },
+    "C": {
+      "type": "item",
+      "code": "game:crushed-chromite",
+      "quantity": 2
+    }
+  },
+  "output": {
+    "type": "item",
+    "code": "metalbowlsandpots:metalbowl-goldplatedsteel",
+    "quantity": 1
+  }
+}
