@@ -1,6 +1,6 @@
 {
   "code": "metalbowl",
-  "class": "Item",
+  "class": "ItemMealContainer",
   "variantgroups": [
     {
       "code": "metal",
@@ -25,23 +25,33 @@
   "attributesByType": {
     "*-copper": {
       "maxServings": 2,
-      "perishRateMul": 0.90
+      "perishRateMul": 0.90,
+      "mealBlockCode": "bowl",
+      "shelvable": true
     },
     "*-tinbronze": {
       "maxServings": 3,
-      "perishRateMul": 0.85
+      "perishRateMul": 0.85,
+      "mealBlockCode": "bowl",
+      "shelvable": true
     },
     "*-iron": {
       "maxServings": 4,
-      "perishRateMul": 0.80
+      "perishRateMul": 0.80,
+      "mealBlockCode": "bowl",
+      "shelvable": true
     },
     "*-steel": {
       "maxServings": 5,
-      "perishRateMul": 0.75
+      "perishRateMul": 0.75,
+      "mealBlockCode": "bowl",
+      "shelvable": true
     },
     "*-goldplatedsteel": {
       "maxServings": 6,
-      "perishRateMul": 0.50
+      "perishRateMul": 0.50,
+      "mealBlockCode": "bowl",
+      "shelvable": true
     }
   },
   "guiTransform": {
