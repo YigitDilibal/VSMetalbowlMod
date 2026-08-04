@@ -1,0 +1,25 @@
+{
+  "ingredientPattern": "C, B",
+  "ingredients": {
+    "C": {
+      "type": "item",
+      "code": "game:chisel-*",
+      "isTool": true,
+      "toolDurabilityCost": 1
+    },
+    "B": {
+      "type": "item",
+      "code": "metalbowlsandpots:metalbowl-goldplatedsteel",
+      "returnedStack": {
+        "type": "item",
+        "code": "game:metalbit-steel",
+        "quantity": 16
+      }
+    }
+  },
+  "output": {
+    "type": "item",
+    "code": "game:nugget-gold",
+    "quantity": 30
+  }
+}
