@@ -1,10 +1,20 @@
 {
-  "ingredientPattern": [
-    "IPI",
-    " B ",
-    "C C"
-  ],
+  "ingredientPattern": "IPI,SBH,C_C",
+  "width": 3,
+  "height": 3,
   "ingredients": {
+    "S": {
+      "type": "item",
+      "tags": ["tool-solderingiron"],
+      "isTool": true,
+      "toolDurabilityCost": 2
+    },
+    "H": {
+      "type": "item",
+      "tags": ["tool-hammer"],
+      "isTool": true,
+      "toolDurabilityCost": 2
+    },
     "I": {
       "type": "item",
       "code": "game:crushed-ilmenite",
@@ -12,11 +22,11 @@
     },
     "P": {
       "type": "item",
-      "code": "game:plate-gold",
+      "code": "game:metalplate-gold",
       "quantity": 1
     },
     "B": {
-      "type": "item",
+      "type": "block",
       "code": "metalbowlsandpots:metalbowl-steel",
       "quantity": 1
     },
@@ -27,7 +37,7 @@
     }
   },
   "output": {
-    "type": "item",
+    "type": "block",
     "code": "metalbowlsandpots:metalbowl-goldplatedsteel",
     "quantity": 1
   }

@@ -1,5 +1,7 @@
 {
-  "ingredientPattern": "C, B",
+  "ingredientPattern": "C,B",
+  "width": 1,
+  "height": 2,
   "ingredients": {
     "C": {
       "type": "item",
@@ -8,7 +10,7 @@
       "toolDurabilityCost": 1
     },
     "B": {
-      "type": "item",
+      "type": "block",
       "code": "metalbowlsandpots:metalbowl-goldplatedsteel",
       "returnedStack": {
         "type": "item",
@@ -19,7 +21,7 @@
   },
   "output": {
     "type": "item",
-    "code": "game:nugget-gold",
+    "code": "game:metalbit-gold",
     "quantity": 30
   }
 }

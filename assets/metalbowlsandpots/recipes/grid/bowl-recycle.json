@@ -1,5 +1,7 @@
 {
-  "ingredientPattern": "C, B",
+  "ingredientPattern": "C,B",
+  "width": 1,
+  "height": 2,
   "ingredients": {
     "C": {
       "type": "item",
@@ -8,7 +10,7 @@
       "toolDurabilityCost": 1
     },
     "B": {
-      "type": "item",
+      "type": "block",
       "code": "metalbowlsandpots:metalbowl-*",
       "name": "metal",
       "allowedVariants": ["copper", "tinbronze", "iron", "steel"]

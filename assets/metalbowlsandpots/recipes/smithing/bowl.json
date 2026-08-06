@@ -1,7 +1,7 @@
 {
   "ingredient": { 
     "type": "item", 
-    "code": "ingot-*", 
+    "code": "game:ingot-*",
     "name": "metal", 
     "allowedVariants": ["copper", "tinbronze", "iron", "steel"] 
   },
@@ -15,16 +15,16 @@
     ],
     [
       "#####",
-      "#   #",
-      "#   #",
-      "#   #",
+      "#___#",
+      "#___#",
+      "#___#",
       "#####"
     ]
   ],
   "name": "Metal Bowl",
   "code": "metalbowl-{metal}",
-  "output": { 
-    "type": "item", 
-    "code": "metalbowlsandpots:metalbowl-{metal}" 
+  "output": {
+    "type": "block",
+    "code": "metalbowlsandpots:metalbowl-{metal}"
   }
 }

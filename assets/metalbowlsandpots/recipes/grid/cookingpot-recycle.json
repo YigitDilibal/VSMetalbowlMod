@@ -1,5 +1,7 @@
 {
-  "ingredientPattern": "C, P",
+  "ingredientPattern": "C,P",
+  "width": 1,
+  "height": 2,
   "ingredients": {
     "C": {
       "type": "item",
@@ -8,15 +10,15 @@
       "toolDurabilityCost": 1
     },
     "P": {
-      "type": "item",
-      "code": "metalbowlsandpots:metalcookingpot-*",
+      "type": "block",
+      "code": "metalbowlsandpots:metalcookingpot-empty-*",
       "name": "metal",
       "allowedVariants": ["copper", "tinbronze", "iron", "steel"]
     }
   },
   "output": {
     "type": "item",
-    "code": "game:metalbit-{metal}",
-    "quantity": 60
+    "code": "game:ingot-{metal}",
+    "quantity": 3
   }
 }

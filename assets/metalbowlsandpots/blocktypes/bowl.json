@@ -1,0 +1,76 @@
+{
+	"code": "metalbowl",
+	"class": "MetalBowl",
+	"behaviors": [
+		{ "name": "GroundStorable", "properties": { "layout": "Quadrants", "collisionBox": { "x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 0.125, "z2": 1 } } },
+		{ "name": "Unplaceable" },
+		{ "name": "RightClickPickup" }
+	],
+	"variantgroups": [
+		{ "code": "metal", "states": [ "copper", "tinbronze", "iron", "steel", "goldplatedsteel" ] }
+	],
+	"attributes": {
+		"handbook": { "groupBy": [ "metalbowl-*" ] },
+		"shelvable": true,
+		"liquidContainerProps": {
+			"capacityLitres": 2,
+			"transferSizeLitres": 0.25,
+			"emptyShapeLoc": "metalbowlsandpots:shapes/item/bowl",
+			"opaqueContentShapeLoc": "game:shapes/block/clay/bowl-contents",
+			"liquidContentShapeLoc": "metalbowlsandpots:shapes/item/bowl-liquid",
+			"liquidMaxYTranslate": 0.05
+		},
+		"mealContainer": true,
+		"mealBlockCode": "metalbowlsandpots:metalbowl-meal-{metal}",
+		"bowlContents": null,
+		"displayable": { "shelf": { "size": { "width": 5, "height": 2, "length": 5 }, "behavior": "Stacking", "category": "bowl", "randYRotAngle": 5 } }
+	},
+	"attributesByType": {
+		"*-copper": { "servingCapacity": 2, "perishRateMul": 0.9 },
+		"*-tinbronze": { "servingCapacity": 3, "perishRateMul": 0.85 },
+		"*-iron": { "servingCapacity": 4, "perishRateMul": 0.8 },
+		"*-steel": { "servingCapacity": 5, "perishRateMul": 0.75 },
+		"*-goldplatedsteel": { "servingCapacity": 6, "perishRateMul": 0.5 }
+	},
+	"shape": { "base": "metalbowlsandpots:item/bowl" },
+	"doNotRenderAtLod2": true,
+	"blockmaterial": "Metal",
+	"creativeinventory": { "general": ["*"], "decorative": ["*"], "metalbowlsandpots": ["*"] },
+	"replaceable": 300,
+	"liquidSelectable": 1,
+	"resistance": 1.5,
+	"maxStackSize": 16,
+	"lightAbsorption": 0,
+	"texturesByType": {
+		"*-goldplatedsteel": {
+			"content": { "base": "game:block/transparent" },
+			"metal": { "base": "game:block/metal/ingot/gold" },
+			"top": { "base": "game:block/metal/ingot/gold" },
+			"inside": { "base": "game:block/metal/ingot/gold" }
+		},
+		"*": {
+			"content": { "base": "game:block/transparent" },
+			"metal": { "base": "metalbowlsandpots:block/metal/{metal}" },
+			"top": { "base": "metalbowlsandpots:block/metal/{metal}" },
+			"inside": { "base": "metalbowlsandpots:block/metal/{metal}" }
+		}
+	},
+	"sounds": { "walk": "game:walk/stone" },
+	"sidesolid": { "all": false },
+	"sideopaque": { "all": false },
+	"emitsideao": { "all": false },
+	"collisionbox": { "x1": 0.3125, "y1": 0, "z1": 0.3125, "x2": 0.6875, "y2": 0.125, "z2": 0.6875 },
+	"selectionbox": { "x1": 0.3125, "y1": 0, "z1": 0.3125, "x2": 0.6875, "y2": 0.125, "z2": 0.6875 },
+	"guiTransform": {
+		"translation": { "x": 0, "y": 3, "z": 0 },
+		"origin": { "x": 0.5, "y": 0.0625, "z": 0.5 },
+		"scale": 3
+	},
+	"groundTransform": { "scale": 3.5 },
+	"tpHandTransform": {
+		"translation": { "x": -0.9, "y": -0.1, "z": -0.8 },
+		"rotation": { "x": 0, "y": -56, "z": 0 },
+		"origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+		"scale": 0.66
+	}
+}
